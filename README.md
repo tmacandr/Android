@@ -80,4 +80,10 @@ OK ... these steps:
 
        export PATH=$PATH:$HOME/bin:$HOME/bin/android-studio/bin:.
 
+   (c) Run 'studio.sh' for first time
+
+       Note - it looks for a Java Runtime Env (JRE).
+
+       Does a massive declaration of $CLASSPATH
+```
 
