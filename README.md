@@ -40,6 +40,9 @@ The recommended method for a complete and up-to-date Android SDK installation
 on Ubuntu is to download Android Studio from the official Android Developers
 website.
 ```
+
+## Download/Install
+
 OK ... these steps:
 ```
 1) https://developer.android.com/studio
@@ -79,11 +82,114 @@ OK ... these steps:
    (d) Expand $PATH in .bashrc
 
        export PATH=$PATH:$HOME/bin:$HOME/bin/android-studio/bin:.
+```
 
-   (c) Run 'studio.sh' for first time
+## Run (first time)
+
+   (a) Run 'studio.sh' for first time
 
        Note - it looks for a Java Runtime Env (JRE).
 
        Does a massive declaration of $CLASSPATH
+
+   (b) allow Google to collect info = NO
+
+   (c) Configure
+
+       (i) Welcome
+
+       (ii) Install Type: Standard
+
+       (iii) Verify Settings
+
+             1) Android Emulator                            306 MB
+             2) Android SDK Build-Tools 36.1               61.2 MB
+             3) Android SDK Platform 36                    62.8 MB
+             4) Android SDK Platform-Tools                  7.54 MB
+             5) Google Play Intel x86_64 Atom System Image  1.86 GB
+             6) Sources for Android 36                     49.3 MB
+
+       (iv) EULA
+
+       (v) Emulator Settings:
+
+           "We have detected that your system can run the Android emulator
+            in an accelerated performance mode.
+
+            Linux-based systems support virtual machine acceleration through
+            the KVM (Kernel-bsed Virtual Machine) software package.
+
+            Follow <Configure hardware acceleration for the Android Emulator>
+            to enable KVM and achieve better performance."
+
+            What?
+
+            Goes to:
+
+       https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio-app&utm_medium=app#vm-linux
+
+            No ... don't like the looks of this.  Various `sudo apt install`
+            commands, etc.
+
+      (vi) Downloading ....
+           start 17:40
+           End   ~17:50
+
+      (vii) Finish
+
+      NOTE - (from Install-Linux-tar.txt) Config information for
+             SDK IDE, etc goes to:
+
+                 $HOME/.config/Google
+
+      (viii) Welcome to Android Studio
+
+             What are these (warnings)?
+
+             (a) The IDE seems to be launched with a script launcher
+                 ('bin/studio.sh').  Please consider switching to a
+                 native launcher ('bin/studio') for better experience.
+
+                     <More>    <Don't Show Again>
+
+                 What?  It's their own dang script?
+
+                 Select don't show again
+
+             (b) Input methods disabler
+                 The IDE is running with enabled input methods that can
+                 cause freezes.  Please consider to disable input
+                 methods if you don't really use them.
+
+                 <Disable input methods>
+
+                 What the heck is "Input Methods" ... and why do I think
+                 someone not from the US wrote that pop-up?
+
+                 Google search ... how ironic ... using Google to find
+                 what the heck Google is doing.
+
+                 Q: "Android Studio what is an "Input Method" and why
+                     should it be disabled? 
+                 A: Something about users entering text, etc into
+                    applications.
+
+                    Well, dang it! ... that's what I want.
+
+                    And something about how it might conflict with
+                    other input and shortcuts (what's that?) during
+                    debugging.
+
+                    What?
+
+                 :.\   Did NOT disable.
+
+    (ix) Ug ... there must be some sort of time out.  Now it plowed
+         right over to "Welcome to Android Studio" with no warnings.
 ```
+
+## First (new) Project
+
+Begin writing a "hello world" ... I guess.
+
 
