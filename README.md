@@ -86,6 +86,9 @@ OK ... these steps:
 
 ## Run (first time)
 
+Invoke the `studio.sh' script per the direction in the
+`Install-Linux-tar.txt`.
+```
    (a) Run 'studio.sh' for first time
 
        Note - it looks for a Java Runtime Env (JRE).
@@ -192,4 +195,6 @@ OK ... these steps:
 
 Begin writing a "hello world" ... I guess.
 
-
+```
+Enter steps here to write, build, test, install 'hello-world'
+```
