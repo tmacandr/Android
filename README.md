@@ -196,5 +196,56 @@ Invoke the `studio.sh' script per the direction in the
 Begin writing a "hello world" ... I guess.
 
 ```
-Enter steps here to write, build, test, install 'hello-world'
+1) New Project
+
+2) "Phone and Tablet"
+
+3) "Empty Activity"
+
+4) "Create a new empty activity with Jetpack Compose" <-- What is that?
+
+   Name: hello_world
+   Package Name: com.example.hello_world
+   Save location: $HOME/Programming/Android/00_hello_world
+   Minimum SDK: API 23 ("Marshmallow"; Android 6.0)
+
+            RE: my Samsung Galaxy Express 3 is Android version 6.0.1
+                Date: October 1, 2017
+
+      "Your app will run on approximately 99.3% of devices".
+
+    Build configuration language:
+                 (a) Kotlin DSL (build.gradle.kts) Recommended
+              or (b) Groovy DSL (build.gradle)
+
+    DSL := Domain Specific Language
+
+    I want to write Java.
+
+    -------------------------------------------------------
+    When developing Android applications using Java, the Domain
+    Specific Language (DSL) primarily encountered is the Groovy DSL
+    for configuring your Gradle build scripts. While Kotlin is
+    now the recommended and default language for new Gradle builds,
+    Groovy DSL remains fully supported and is widely used in existing
+    Java-based Android projects.
+    -------------------------------------------------------
+
+    Pick:  Groovy
+
+    Some weird note:  "i The application name for most apps begins with
+                       an uppercase letter."
+
+5) Finish ...
+
+   Start-up screen disappears and some "Add Configuration ..." window
+   comes up ... long time ... progress bar saying:
+               "Generating sources"
+
+   There were three pop ups saying "add source" ... I didn't know what
+   to do.  Selected "cancel".  Could be trouble.
+
+   Ug!  It's a "kotlin" file, "MainActivity.kt" even though I didn't
+   say so.  I want Java!
+
 ```
