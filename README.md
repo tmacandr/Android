@@ -4,6 +4,29 @@ Apps for my Android phone
 
 # Setup
 
+24-MAY-2026 - Just deleted the SDK described below.  Everytime I run it, it
+eventually crashes my laptop and I have to do a hard-boot.
+
+I asked 'google' why does my laptop get locked up.  The answer is that my
+laptop is too old and doesn't have sufficient **resources** needed to support
+the **Android SDK**.
+
+So ... bye bye.
+
+I'm thinking to go back to the "HedgeHog" version that worked on **this**
+laptop back in Jan-2024.  It's (still at):
+```
+   https://developer.android.com/studio/archive
+```
+
+**Commentary** - In perusing that _archive_ location I see there seems to
+be a new _Android SDK_ release about four times per month.  **Say what?**
+Why the heck would they need to have a new release every dang week?  There's
+something wrong with that.  But they're **google**.  There's no on around
+to tell them they're **wrong**.  They're the 800 lb gorilla in the room.
+
+# DEPRECATED
+
 Google:
 ```
    Q : "What are the Software Development Kits for Android?"
@@ -249,3 +272,13 @@ Begin writing a "hello world" ... I guess.
    say so.  I want Java!
 
 ```
+
+# Tutorials
+
+   1. https://www.geeksforgeeks.org/android/100-days-of-android-development/
+
+   2. https://www.geeksforgeeks.org/android/android-sdk-and-its-components/
+
+   3. https://www.geeksforgeeks.org/android/android-tutorial/
+
+
